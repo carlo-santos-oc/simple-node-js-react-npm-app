@@ -1,9 +1,15 @@
 import React from 'react';
+import { Typography } from '@material-ui/core'
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 const App = () => {
   return(
     <div>
-      <h1>Hello, World!</h1>
+      <Typography variant="h1">Hello, World!</Typography>
     </div>
   )
 }
